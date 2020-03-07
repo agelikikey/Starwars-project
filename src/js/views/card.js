@@ -4,7 +4,7 @@ import { PropTypes } from "prop-types";
 // these are notes for creating a dynamic card component.
 export function Card(props) {
 	return (
-		<div className="card col center" style={{ width: "300px" }}>
+		<div className="border m-3" style={{ width: "300px" }}>
 			<img className="card-img-top" src={props.picture} alt="Card image cap" />
 			<div className="card-body text-center">
 				<h5 className="card-title"> {props.title} </h5>
